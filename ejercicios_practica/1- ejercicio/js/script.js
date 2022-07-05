@@ -8,9 +8,12 @@
 /* Enunciado
 
 1)
-Leer el título del "header" del post e imprimirlo en consola.   
+Leer el título del "header" del post e imprimirlo en consola.  */ 
+const tituloheader = document.querySelector(".post-header");
+console.log(tituloheader.textContent);
 
-2)
-Cambiar título utilizando javascript por otro cualquiera.
+/*2)
+Cambiar título utilizando javascript por otro cualquiera.*/
 
-*/
+const tituloPrincipal = document.querySelector("title").innerHTML = "Algo diferente.";
+alert(tituloPrincipal);
