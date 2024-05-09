@@ -9,11 +9,12 @@
 
 1)
 Leer el título del "header" del post e imprimirlo en consola.  */ 
-const tituloheader = document.querySelector(".post-header");
+//const tituloheader = document.querySelector(".post-header");
+let tituloheader = document.querySelector("title");
 console.log(tituloheader.textContent);
 
 /*2)
 Cambiar título utilizando javascript por otro cualquiera.*/
 
-const tituloPrincipal = document.querySelector("title").innerHTML = "Algo diferente.";
-alert(tituloPrincipal);
+let tituloPrincipal = document.querySelector("title").textContent = "Titulo diferente";
+console.log(tituloPrincipal);
