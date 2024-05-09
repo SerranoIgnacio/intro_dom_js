@@ -17,9 +17,8 @@ document.getElementById("boton3").innerHTML = "CORTAR";
 /* 2)
 Obtener todos los botones utilizando la clase "btn",
 luego a todos los botones agregar la clase "agua" */
-const boton1 = document.querySelector(".btn");
-boton1.classList.add(".agua");
-const boton2 = document.getElementsByClassName("btn")[1];
-boton2.classList.add(".agua");
-const boton3 = document.getElementsByClassName("btn")[2];
-boton3.classList.add(".agua");
+
+const boton = document.querySelector(".btn");
+boton.classList.add("agua");
+boton.classList.contains('agua');
+console.log(boton.classList.contains('agua'));
